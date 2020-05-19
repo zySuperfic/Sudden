@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50fb75b2-1660-4493-911c-c36686e6d9a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/xin$zsqyj.coverage" NAME="zsqyj Coverage Results" MODIFIED="1573812872450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new" />
+    <SUITE FILE_PATH="coverage/xin$jkzdh.coverage" NAME="jkzdh Coverage Results" MODIFIED="1573813787692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new" />
+    <SUITE FILE_PATH="coverage/xin$youjian.coverage" NAME="youjian Coverage Results" MODIFIED="1573810182729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aCSIJhJARu4p6Gstp0QWi6BFdd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/new/myapi_test2/case" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="xin" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="xin" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\xin\new\myapi_test2\case" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_api.py">
+    <configuration name="readexcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new/cszdh/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/cszdh/common/readexcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_this" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new/cszdh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/cszdh/run_this.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new/cszdh/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/cszdh/report/send_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="writeexcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new/cszdh/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/cszdh/common/writeexcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_api.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="xin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new/cszdh/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/new/cszdh/case/test_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_api.py" />
+        <item itemvalue="Python.send_email" />
+        <item itemvalue="Python.run_this" />
+        <item itemvalue="Python.writeexcel" />
+        <item itemvalue="Python.readexcel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50fb75b2-1660-4493-911c-c36686e6d9a5" name="Default Changelist" comment="" />
+      <created>1573784254084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573784254084</updated>
+      <workItem from="1573784262859" duration="11999000" />
+      <workItem from="1583380960801" duration="67000" />
+      <workItem from="1586226096141" duration="755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12821000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="2" key="#Inspections" timestamp="1588734544458">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Inspections/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588734544458" />
+    <state x="233" y="0" width="814" height="680" key="#Intentions" timestamp="1588735609668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" width="814" height="680" key="#Intentions/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588735609668" />
+    <state x="233" y="4" key="#Servers" timestamp="1588735831691">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="4" key="#Servers/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588735831691" />
+    <state x="398" y="0" key="#base_api" timestamp="1586239927182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="0" key="#base_api/0.0.1366.728@0.0.1366.728" timestamp="1586239927182" />
+    <state x="420" y="48" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588731972664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="48" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588731972664" />
+    <state x="398" y="0" key="#jkzdh" timestamp="1586238302821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="0" key="#jkzdh/0.0.1366.728@0.0.1366.728" timestamp="1586238302821" />
+    <state x="398" y="0" key="#readexcel" timestamp="1586239746846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="0" key="#readexcel/0.0.1366.728@0.0.1366.728" timestamp="1586239746846" />
+    <state x="398" y="0" key="#run_this" timestamp="1586239437388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="0" key="#run_this/0.0.1366.728@0.0.1366.728" timestamp="1586239437388" />
+    <state x="357" y="0" key="#test_api" timestamp="1588732038977">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="0" key="#test_api/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588732038977" />
+    <state x="398" y="0" key="#writeexcel" timestamp="1586239657102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="0" key="#writeexcel/0.0.1366.728@0.0.1366.728" timestamp="1586239657102" />
+    <state x="86" y="86" width="1108" height="509" key="DiffContextDialog" timestamp="1588735538450">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="86" y="86" width="1108" height="509" key="DiffContextDialog/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588735538450" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1586239657436" />
+    <state x="139" y="142" key="FileChooserDialogImpl" timestamp="1588919408682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="139" y="142" key="FileChooserDialogImpl/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588919408682" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586239918938" />
+    <state width="1259" height="93" key="GridCell.Tab.0.bottom" timestamp="1589799638714">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="93" key="GridCell.Tab.0.bottom/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1589799638714" />
+    <state width="1344" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.768@0.0.1366.728" timestamp="1586404928593" />
+    <state width="1344" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587472437333" />
+    <state width="1259" height="93" key="GridCell.Tab.0.center" timestamp="1589799638714">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="93" key="GridCell.Tab.0.center/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1589799638714" />
+    <state width="1344" height="142" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.768@0.0.1366.728" timestamp="1586404928593" />
+    <state width="1344" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587472437333" />
+    <state width="1259" height="93" key="GridCell.Tab.0.left" timestamp="1589799638714">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="93" key="GridCell.Tab.0.left/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1589799638714" />
+    <state width="1344" height="142" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.768@0.0.1366.728" timestamp="1586404928592" />
+    <state width="1344" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587472437333" />
+    <state width="1259" height="93" key="GridCell.Tab.0.right" timestamp="1589799638714">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="93" key="GridCell.Tab.0.right/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1589799638714" />
+    <state width="1344" height="142" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.768@0.0.1366.728" timestamp="1586404928593" />
+    <state width="1344" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587472437333" />
+    <state x="143" y="0" key="SettingsEditor" timestamp="1589337253668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="143" y="0" key="SettingsEditor/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1589337253668" />
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587473158257" />
+    <state x="110" y="120" width="1060" height="480" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1588739015170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="110" y="120" width="1060" height="480" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588739015170" />
+    <state x="351" y="176" key="com.intellij.ide.util.TipDialog" timestamp="1589858536531">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="176" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1589858536531" />
+    <state x="373" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1588333159744" />
+    <state x="375" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587459146398" />
+    <state x="321" y="12" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588735517048">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="12" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680/-2560.-363.2560.1400@0.0.1280.680" timestamp="1588735517048" />
+    <state x="343" y="13" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1586239415653" />
+    <state x="0" y="0" width="1108" height="533" key="dock-window-1" timestamp="1586239616022">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1108" height="533" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1586239616022" />
+  </component>
+</project>
