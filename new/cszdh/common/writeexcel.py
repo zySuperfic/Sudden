@@ -3,7 +3,6 @@ from openpyxl import load_workbook
 import openpyxl
 
 
-
 def copy_excel(excelpath1, excelpath2):
     '''复制excek，把excelpath1数据复制到excelpath2'''
     wb2 = openpyxl.Workbook()
@@ -42,7 +41,7 @@ class Write_excel(object):
         self.wb.save(self.filename)
 
 if __name__ == "__main__":
-    copy_excel("debug_api.xlsx", "test111.xlsx")
+    copy_excel(r"C:\Users\Administrator\PycharmProjects\xin\new\cszdh\case\demo_api.xlsx", "test111.xlsx")
     wt = Write_excel("test111.xlsx")
     wt.write(4, 5, "HELLEOP")
     wt.write(4, 6, "HELLEOP")

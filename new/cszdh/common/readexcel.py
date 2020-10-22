@@ -10,6 +10,8 @@ class ExcelUtil():
         self.rowNum = self.table.nrows
         # 获取总列数
         self.colNum = self.table.ncols
+        # print(self.rowNum)
+        # print(self.colNum)
 
     def dict_data(self):
         if self.rowNum <= 1:
@@ -29,7 +31,7 @@ class ExcelUtil():
             return r
 
 if __name__ == "__main__":
-    filepath = "debug_api.xlsx"
+    filepath = r"C:\Users\Administrator\PycharmProjects\xin\new\cszdh\case\demo_api.xlsx"
     sheetName = "Sheet1"
     data = ExcelUtil(filepath, sheetName)
     print(data.dict_data())

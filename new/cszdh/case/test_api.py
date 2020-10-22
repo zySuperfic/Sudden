@@ -1,7 +1,6 @@
 # coding:utf-8
 import unittest
 import ddt
-
 import os
 import requests
 from new.cszdh.common import base_api
@@ -39,6 +38,8 @@ class Test_api(unittest.TestCase):
         print("返回实际结果->：%s"%res_text)
         # 断言
         self.assertTrue(check in res_text)
+
+
 
 if __name__ == "__main__":
     unittest.main()

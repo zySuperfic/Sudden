@@ -59,15 +59,43 @@ def errorSendEmail(taskname):
         return wraper
 
     return functionwraper
+# def token():
+#     url = "http://v4.demo.qiyebox.com/auth/oauth/token?username=yanzi&pCode=R5eGR5f0xc5sJ5VeZIBxtg%3D%3D&randomStr=75461594192181112&code=6666&grant_type=password&scope=server"
+#     # url = "https://v4.qiyebox.com/auth/oauth/token?username=qq123&pCode=rKu1%2F348LvKp0rsVC06eCA%3D%3D&randomStr=79351602484333460&code=6666&grant_type=password&scope=server"
+#
+#     headers = {
+#         'Content-Type': "application/json;charset=UTF-8",
+#         'Authorization': "Basic cGlnOnBpZw =="
+#
+#     }
+#     r = requests.get(url=url, headers=headers)
+#     print(r.text)
+#     return r.json()['access_token']
+
+# 打印登录返回token必填值
+def login():
+    # url = "http://v4.demo.qiyebox.com/auth/oauth/token?username=yanzi&pCode=R5eGR5f0xc5sJ5VeZIBxtg%3D%3D&randomStr=75461594192181112&code=6666&grant_type=password&scope=server"
+    url = "https://v4.qiyebox.com/auth/oauth/token?username=qq123&pCode=rKu1%2F348LvKp0rsVC06eCA%3D%3D&randomStr=79351602484333460&code=6666&grant_type=password&scope=server"
+    headers = {
+        'Content-Type': "application/json;charset=UTF-8",
+        'Authorization': "Basic cGlnOnBpZw=="
+    }
+    r = requests.get(url=url, headers=headers)
+    return r.json()['access_token']
+# print("bearer "+login())
 
 
-url = "http://v4.demo.qiyebox.com/bills/BuildBill/buildBill"
+# url = "http://v4.demo.qiyebox.com/bills/BuildBill/buildBill"
+url = "https://v4.qiyebox.com/bills/BuildBill/buildBill"
+
 
 headers = {
-    'Authorization': "Bearer 430b408b-7c93-4e56-bd6b-3a25089d1e80",
+    'Authorization': "Bearer " + login(),
+    # 'Authorization': "Bearer " + token(),
+    # 'Authorization': "Bearer 937f8681-2789-4237-9b62-76cf57e0b6a3 ",
     'Content-Type': "application/json;charset=UTF-8",
 }
-
+print(headers)
 
 # 查询前准备, 整理成data.向服务器请求数据
 def queryData(test_data):
@@ -107,7 +135,7 @@ def excelGetData():
     path = "D:\pyceshi\ceshi\case.xlsx"
     # path = "E:\shiyan\ceshi\case\case.xlsx"
     book = xlrd.open_workbook(path)
-    sheet1 = book.sheets()[0]
+    sheet1 = book.sheets()[1]
 
     nrows = sheet1.nrows
     # print(nrows)
@@ -115,7 +143,7 @@ def excelGetData():
     # print(ncols)
     resultData = []
     title = sheet1.row_values(0)
-    for i in range(1, 188):  # 1,2,3
+    for i in range(1, 206):  # 1,2,3
         row1_values = sheet1.row_values(i)
         OneLineDict = {}
         for key, value in zip(title, row1_values):
@@ -144,6 +172,7 @@ if __name__ == "__main__":
     test = unittest.TestSuite()
     for eachLine in resultData:
         testCaseTotalMoney = eachLine.pop("totalmoney")
+        testid = eachLine.pop("id")
         #testCaseTotalMoney1 = eachLine.pop("totalmoney1")
         # print(eachLine, "1111")
         data = queryData(eachLine)
@@ -160,7 +189,9 @@ if __name__ == "__main__":
             if testCaseTotalMoney == TotalMoney or testCaseTotalMoney1 == TotalMoney:
                 # print("case_money: ", testCaseTotalMoney, "     ", "res_money: ", TotalMoney,
                 #   "             result：   pass  ", "等级： P1")
+                print(testid)
                 pass
+
             else:
                 ErrorCount += 1
                 errorMessage.append(data)
@@ -173,6 +204,7 @@ if __name__ == "__main__":
             # assert testCaseTotalMoney == TotalMoney
         else:
             print("获取数据失败")
+            print(testid,data)
 
     r = "error count is {} , total_count is {} and right_count is {}".format(ErrorCount, TotalCount,
                                                                              TotalCount - ErrorCount)
